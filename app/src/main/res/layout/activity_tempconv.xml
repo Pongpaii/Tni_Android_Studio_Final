@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E1D4"
+    tools:context=".Tempconv">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="54dp"
+        android:text="Tempconv" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="104dp"
+        android:text="From" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="195dp"
+        android:text="To" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="389dp"
+        android:text="Result :" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_x="91dp"
+        android:layout_y="106dp"
+        android:entries="@array/temp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="245dp"
+        android:layout_height="56dp"
+        android:layout_x="90dp"
+        android:layout_y="193dp"
+        android:entries="@array/temp" />
+
+    <EditText
+        android:id="@+id/getnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="293dp"
+        android:ems="10"
+        android:hint="please input"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/converbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="289dp"
+        android:text="Button" />
+</AbsoluteLayout>
