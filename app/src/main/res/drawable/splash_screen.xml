@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- สีพื้นหลังเขียวอ่อน -->
+    <item android:drawable="@color/light_green_color" />
+
+    <!-- ไอคอนตรงกลางของ splash screen -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/bat4" /> <!-- ไอคอนที่คุณต้องการแสดง -->
+    </item>
+</layer-list>
